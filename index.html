@@ -25,6 +25,7 @@
 
 	<!-- Main CSS -->
 	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 
 	<!-- Themes -->
 	<!--<link rel="stylesheet" href="assets/css/themes.light.css">-->
@@ -47,10 +48,76 @@
 
 	<!-- Main JS -->
 	<script src="assets/js/main.js"></script>
-
+	<script src="assets/js/modernizr.js"></script>
 </head>
-
 <body>
+	<a class="cd-nav-trigger cd-img-replace">Open navigation</a>
+	<nav id="cd-vertical-nav" >
+	<ul>
+		<li>
+			<a href="#profile" data-number="1">
+				<span class="cd-dot"></span>
+				<span class="cd-label">Profile</span>
+			</a>
+		</li>
+		<li>
+			<a href="#intro" data-number="2">
+				<span class="cd-dot"></span>
+				<span class="cd-label">Intro</span>
+			</a>
+		</li>
+		<li>
+			<a href="#expertise" data-number="3">
+				<span class="cd-dot"></span>
+				<span class="cd-label">Expertise</span>
+			</a>
+		</li>
+		<li>
+			<a href="#skills" data-number="4">
+				<span class="cd-dot"></span>
+				<span class="cd-label">Skills</span>
+			</a>
+		</li>
+		<li>
+			<a href="#experience" data-number="5">
+				<span class="cd-dot"></span>
+				<span class="cd-label">Experience</span>
+			</a>
+		</li>
+		<li>
+			<a href="#education" data-number="6">
+				<span class="cd-dot"></span>
+				<span class="cd-label">Education</span>
+			</a>
+		</li>
+		<li>
+			<a href="#sosmed" data-number="7">
+				<span class="cd-dot"></span>
+				<span class="cd-label">Social media</span>
+			</a>
+		</li>
+		<li>
+			<a href="#awards" data-number="8">
+				<span class="cd-dot"></span>
+				<span class="cd-label">Awards</span>
+			</a>
+		</li>
+		<li>
+			<a href="#portfolio" data-number="9">
+				<span class="cd-dot"></span>
+				<span class="cd-label">Portfolio</span>
+			</a>
+		</li>
+		<li>
+			<a href="#contact" data-number="9">
+				<span class="cd-dot"></span>
+				<span class="cd-label">Contact</span>
+			</a>
+		</li>
+		<!-- other navigation items here-->
+	</ul>
+	</nav>
+
 
 	<div class="c-preloader  js-preloader">
 		<div class="c-preloader__spinner  t-preloader__spinner"></div>
@@ -58,17 +125,12 @@
 
 	<div class="c-main-container  js-main-container">
 
-
-
 		<!-- ################################ -->
 		<!-- ############ HEADER ############ -->
 		<!-- ################################ -->
 
-		<section class="o-section o-section--header  t-section  t-section--header">
+		<section id="profile" class="cd-section o-section o-section--header  t-section  t-section--header">
 			<div class="c-header">
-
-				<div class="o-section__header-bg  t-section__header"></div>
-				<div class="o-section__content-bg  t-section__content"></div>
 
 				<div class="o-container">
 					<div class="o-section__container">
@@ -198,7 +260,7 @@
 	<!-- ############ INTRO ############# -->
 	<!-- ################################ -->
 
-	<section class="o-section  t-section  ">
+	<section id="intro" class="cd-section o-section  t-section  ">
 
 		<div class="o-section__header-bg  t-section__header"></div>
 		<div class="o-section__content-bg  t-section__content"></div>
@@ -246,7 +308,7 @@
 	<!-- ########## EXPERTISE ########### -->
 	<!-- ################################ -->
 
-	<section class="o-section  t-section  ">
+	<section id="expertise" class="cd-section o-section  t-section  ">
 
 		<div class="o-section__header-bg  t-section__header"></div>
 		<div class="o-section__content-bg  t-section__content"></div>
@@ -343,7 +405,7 @@
 
 	</section><!-- /o-section -->
 
-	<section class="o-section  t-section  ">
+	<section  id="skills" class="cd-section  o-section  t-section  ">
 
 		<div class="o-section__header-bg  t-section__header"></div>
 		<div class="o-section__content-bg  t-section__content"></div>
@@ -519,9 +581,7 @@
 
 	</section><!-- /o-section -->
 
-
-	<section class="o-section  t-section  ">
-
+	<section  id="experience" class="cd-section o-section  t-section  ">
 		<div class="o-section__header-bg  t-section__header"></div>
 		<div class="o-section__content-bg  t-section__content"></div>
 
@@ -633,13 +693,11 @@
 
 	</section><!-- /o-section -->
 
-
-
 	<!-- ################################ -->
 	<!-- ########### EDUCATION ########## -->
 	<!-- ################################ -->
 
-	<section class="o-section  t-section  ">
+	<section id="education" class="cd-section o-section  t-section  ">
 
 		<div class="o-section__header-bg  t-section__header"></div>
 		<div class="o-section__content-bg  t-section__content"></div>
@@ -753,13 +811,11 @@
 
 	</section><!-- /o-section -->
 
-
-
 	<!-- ################################ -->
 	<!-- ########### PROFILES ########### -->
 	<!-- ################################ -->
 
-	<section class="o-section  t-section  ">
+	<section  id="sosmed" class="cd-section o-section  t-section  ">
 
 		<div class="o-section__header-bg  t-section__header"></div>
 		<div class="o-section__content-bg  t-section__content"></div>
@@ -880,8 +936,7 @@
 
 	</section><!-- /o-section -->
 
-
-	<section class="o-section  t-section  ">
+	<section  id="awards" class="cd-section o-section  t-section  ">
 
 		<div class="o-section__header-bg  t-section__header"></div>
 		<div class="o-section__content-bg  t-section__content"></div>
@@ -949,13 +1004,11 @@
 
 	</section><!-- /o-section -->
 
-
-
 	<!-- ################################ -->
 	<!-- ########### PORTFOLIO ########## -->
 	<!-- ################################ -->
 
-	<section class="o-section  t-section  ">
+	<section id="portfolio" class="cd-section o-section  t-section  ">
 
 		<div class="o-section__header-bg  t-section__header"></div>
 		<div class="o-section__content-bg  t-section__content"></div>
@@ -989,14 +1042,11 @@
 
 	</section><!-- /o-section -->
 
-
-
-
 	<!-- ################################ -->
 	<!-- ############ FOOTER ############ -->
 	<!-- ################################ -->
 
-	<section class="o-section  t-section  o-section--footer">
+	<section id="contact" class="cd-section o-section  t-section  o-section--footer">
 
 		<div class="o-section__header-bg  t-section__header"></div>
 		<div class="o-section__content-bg  t-section__content"></div>
@@ -1158,7 +1208,6 @@
 </div><!-- /o-container -->
 
 </section><!-- /o-section -->
-
 
 
 </div><!-- /c-main-container -->

@@ -2176,7 +2176,7 @@ img[height] {
 }
 
 .c-avatar__img {
-  border-radius: 50%;
+  border-radius: 10%;
   width: 11rem;
 }
 
@@ -2470,5 +2470,3 @@ img[height] {
 .u-show-xl {
   display: none !important;
 }
-
-/*# sourceMappingURL=main.css.map */
